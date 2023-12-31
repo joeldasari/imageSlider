@@ -45,7 +45,7 @@ const App = () => {
   } 
   return (
     <div className="flex flex-col items-center justify-center mt-4 gap-2">
-      <p className="text-2xl font-semibold">SUPER HEROS</p>
+      <p className="text-2xl font-semibold max-sm:text-xl">SUPER HEROS</p>
       <div style={{backgroundImage: `url(${slides[index].url})`}} className="w-[720px] h-[480px] max-sm:w-[340px] max-sm:h-[200px] bg-cover bg-center rounded-2xl duration-500 flex items-center px-6 space-x-[640px] max-sm:px-2 max-sm:space-x-[290px]">
       <BsChevronCompactLeft onClick={leftClick} size={30} className=" bg-black/50 text-white rounded-full p-1 hover:cursor-pointer absolute" />
       <BsChevronCompactRight onClick={rightClick} size={30} className=" bg-black/50 text-white rounded-full p-1 hover:cursor-pointer absolute"/>
